@@ -8,7 +8,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-orange-400 py-4 px-5 md:px-10">
+        <nav className="bg-gray-800 py-4 px-5 md:px-10">
             <div className="container mx-auto flex items-center justify-between">
                 <div className="flex items-center">
                     <img src={icon} alt="Logo" className="h-8 w-auto" />
@@ -44,7 +44,7 @@ const Navbar = () => {
                     </button>
                 </div>
                 <div
-                    className={`${isOpen ? 'flex' : 'hidden'} flex-col md:flex-row items-end absolute md:static top-[64px] bg-orange-400 right-0 p-5 md:p-0 md:flex md:items-center space-x-4`}
+                    className={`${isOpen ? 'flex' : 'hidden'} flex-col md:flex-row items-end absolute md:static top-[64px] bg-gray-800 right-0 p-5 md:p-0 md:flex md:items-center space-x-4`}
                 >
                     <a href="#" className="text-white hover:text-gray-300">
                         Signup
