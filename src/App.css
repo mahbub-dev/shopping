@@ -2,3 +2,9 @@
   max-width: 1280px;
   margin: 0 auto;
 }
+.slick-prev, .slick-next {
+  display: none !important;
+}
+.title{
+  border-radius: 5px 40px;
+}
