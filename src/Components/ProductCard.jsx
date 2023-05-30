@@ -1,4 +1,3 @@
-import React from 'react';
 
 const ProductCard = () => {
   const ratings = 4.5; // Example rating value
